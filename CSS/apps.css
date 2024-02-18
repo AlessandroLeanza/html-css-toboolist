@@ -8,22 +8,61 @@
     height: 20px;
     background: black;
 }
+
 body {
     background-color: rgb(194, 202, 202);
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* Heders */
 
-.logo{
+.logo {
     width: 150px;
-    margin: 10px;
+    margin: 5px 10px;
 }
+
 .plage-header {
     background-color: white;
 }
 
 /* Main */
 
-.plage-main{
-  
+.content {
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 200px;
+}
+
+.first-span{
+    display: inline-block;
+    width: 65px;
+    height: 19px;
+    background-color: rgba(37, 114, 221, 0.78);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 7px;
+    text-align: center;
+    line-height: 5px;
+}
+
+.second-span {
+    display: inline-block;
+    width: 77px;
+    height: 21px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 6px;
+    text-align: center;
+    line-height: 5px;
+    border-color: rgba(155, 154, 154, 0.999);
+    border-style: solid;
 }
