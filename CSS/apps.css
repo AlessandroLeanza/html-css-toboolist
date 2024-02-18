@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black-line {
+    height: 20px;
+    background: black;
+}
+body {
+    background-color: rgb(194, 202, 202);
+}
+
+/* Heders */
+
+.logo{
+    width: 150px;
+    margin: 10px;
+}
+.plage-header {
+    background-color: white;
+}
+
+/* Main */
+
+.plage-main{
+  
+}
