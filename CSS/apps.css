@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-/* Heders */
+/* HEADER */
 
 .logo {
     width: 150px;
@@ -29,20 +29,21 @@ body {
     background-color: white;
 }
 
-/* Main */
+/* MAIN */
 
+/* HEADER */
 .content {
     padding: 20px;
 }
 
-.card {
+.container-card {
     background-color: white;
     padding: 10px 30px;
-    border-radius: 5px;
-    margin: 10px 200px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 10px 160px;
 }
 
-.first-span{
+.first-span {
     display: inline-block;
     width: 65px;
     height: 19px;
@@ -65,4 +66,103 @@ body {
     line-height: 5px;
     border-color: rgba(155, 154, 154, 0.999);
     border-style: solid;
+}
+
+/* MAIN */
+
+.second-content {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 0px 0px 5px 5px;
+    margin: -9px 160px;
+}
+
+.title {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+#spunta {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    color: green;
+    border-radius: 50%;
+    border-style: solid;
+    font-size: 11px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.editorial {
+    display: inline-block;
+    width: 60px;
+    height: 17px;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 6px;
+    text-align: center;
+    line-height: 5px;
+    background-color: aqua;
+    color: white;
+}
+
+.today {
+    font-size: 11px;
+    padding: 21px 0px;
+}
+
+#spunta-second {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    color: green;
+    border-radius: 50%;
+    border-style: solid;
+    font-size: 11px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.contenitore{
+    padding: 8px 0px;
+}
+
+.goals {
+    display: inline-block;
+    width: 60px;
+    height: 17px;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 6px;
+    text-align: center;
+    line-height: 5px;
+    background-color: violet;
+    color: white;
+}
+
+#spunta-egea {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    color: red;
+    border-radius: 50%;
+    border-style: solid;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.mobile {
+    display: inline-block;
+    width: 60px;
+    height: 17px;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 6px;
+    text-align: center;
+    line-height: 5px;
+    background-color: orange;
+    color: white;
 }
