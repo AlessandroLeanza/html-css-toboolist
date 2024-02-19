@@ -45,7 +45,6 @@ body {
 
 .first-span {
     display: inline-block;
-    width: 65px;
     height: 19px;
     background-color: rgba(37, 114, 221, 0.78);
     border-radius: 5px;
@@ -57,7 +56,6 @@ body {
 
 .second-span {
     display: inline-block;
-    width: 77px;
     height: 21px;
     border-radius: 5px;
     font-size: 12px;
@@ -82,7 +80,7 @@ body {
     padding: 10px 0px;
 }
 
-#spunta {
+.spunta {
     display: inline-block;
     width: 15px;
     height: 17px;
@@ -92,6 +90,10 @@ body {
     font-size: 11px;
     margin-right: 10px;
     text-align: center;
+}
+
+.spunta.second {
+    
 }
 
 .editorial {
@@ -107,38 +109,18 @@ body {
     color: white;
 }
 
+.editorial.goals {
+    background-color: violet; 
+}
+
 .today {
     font-size: 11px;
     padding: 21px 0px;
 }
 
-#spunta-second {
-    display: inline-block;
-    width: 15px;
-    height: 17px;
-    color: green;
-    border-radius: 50%;
-    border-style: solid;
-    font-size: 11px;
-    margin-right: 10px;
-    text-align: center;
-}
-
 .contenitore{
     padding: 8px 0px;
-}
-
-.goals {
-    display: inline-block;
-    width: 60px;
-    height: 17px;
-    border-radius: 50px;
-    font-size: 11px;
-    padding: 6px;
-    text-align: center;
-    line-height: 5px;
-    background-color: violet;
-    color: white;
+    font-size: 14px;
 }
 
 #spunta-egea {
